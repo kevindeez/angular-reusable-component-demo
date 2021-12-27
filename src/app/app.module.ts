@@ -5,8 +5,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { environment } from 'environments/environment';
 
+import { environment } from '../environments/environment';
 import { AppInitService } from './app-init.service';
 import { AppComponent } from './app.component';
 import { appRouterModule } from './app.routes';
