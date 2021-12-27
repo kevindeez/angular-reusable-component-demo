@@ -1,6 +1,6 @@
-import { GenericAction } from '@app/core/store/generic-action';
-import { Guid } from '@app/shared/models/guid';
-import { TODOItem } from '@app/shared/models/todo-item';
+import { Guid } from '../../../shared/models/guid';
+import { TODOItem } from '../../../shared/models/todo-item';
+import { GenericAction } from '../../store/generic-action';
 import { TodoListActionTypes } from './todo-list.actions';
 import { TodoListState } from './todo-list.model';
 

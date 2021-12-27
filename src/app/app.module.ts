@@ -7,14 +7,14 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { environment } from 'environments/environment';
 
-import { AppInitService } from '@app/app-init.service';
-import { AppComponent } from '@app/app.component';
-import { appRouterModule } from '@app/app.routes';
-import { CoreModule } from '@app/core/core.module';
-import { FooterComponent } from '@app/footer/footer.component';
-import { NavbarComponent } from '@app/navbar/navbar.component';
-import { SharedModule } from '@app/shared/shared.module';
-import { TodoListModule } from '@app/todo-list/todo-list.module';
+import { AppInitService } from './app-init.service';
+import { AppComponent } from './app.component';
+import { appRouterModule } from './app.routes';
+import { CoreModule } from './core/core.module';
+import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { SharedModule } from './shared/shared.module';
+import { TodoListModule } from './todo-list/todo-list.module';
 
 export function init_app(appLoadService: AppInitService) {
   return () => appLoadService.init();

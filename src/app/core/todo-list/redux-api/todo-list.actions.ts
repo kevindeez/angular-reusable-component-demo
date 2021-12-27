@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Action, Store } from '@ngrx/store';
 
-import { TODOItem } from '@app/shared/models/todo-item';
+import { TODOItem } from '../../../shared/models/todo-item';
 import { TodoListState } from './todo-list.model';
 
 export enum TodoListActionTypes {

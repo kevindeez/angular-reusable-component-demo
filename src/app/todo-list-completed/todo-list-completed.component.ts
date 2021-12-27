@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
-import { TodoListService } from '@app/core/todo-list/todo-list.service';
+import { TodoListService } from '../core/todo-list/todo-list.service';
 
 @Component({
   selector: 'app-todo-list-completed',

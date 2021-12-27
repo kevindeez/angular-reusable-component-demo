@@ -3,7 +3,7 @@ import { Actions, Effect, ofType } from '@ngrx/effects';
 import { of } from 'rxjs';
 import { catchError, exhaustMap, map } from 'rxjs/operators';
 
-import { TodoListService } from '@app/core/todo-list/todo-list.service';
+import { TodoListService } from '../todo-list.service';
 import { TodoItemsLoaded, TodoItemsLoadFailed, TodoListActionTypes } from './todo-list.actions';
 
 @Injectable()

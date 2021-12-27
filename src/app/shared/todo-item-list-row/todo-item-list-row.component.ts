@@ -7,7 +7,8 @@ import {
   Output
 } from '@angular/core';
 
-import { TODOItem } from '@app/shared/models/todo-item';
+import { TODOItem } from '../models/todo-item';
+
 
 @Component({
   selector: 'app-todo-item-list-row',

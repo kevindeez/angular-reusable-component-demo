@@ -2,11 +2,11 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 
-import { InvalidDateValidatorDirective } from '@app/shared/invalid-date.directive';
-import { SpinnerOverlayWrapperModule } from '@app/shared/spinner-overlay-wrapper/spinner-overlay-wrapper.module';
-import { SpinnerModule } from '@shared-lib/spinner/spinner.module';
+import { SpinnerModule } from '../../shared-lib/spinner/spinner.module';
 import { AppMaterialModule } from './app-material/app-material.module';
 import { CardListModule } from './cards-list/cards-list.module';
+import { InvalidDateValidatorDirective } from './invalid-date.directive';
+import { SpinnerOverlayWrapperModule } from './spinner-overlay-wrapper/spinner-overlay-wrapper.module';
 import { TodoItemCardComponent } from './todo-item-card/todo-item-card.component';
 import { TodoItemListRowComponent } from './todo-item-list-row/todo-item-list-row.component';
 

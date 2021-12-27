@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 
-import { TODOItem } from '@app/shared/models/todo-item';
+import { TODOItem } from '../models/todo-item';
+
 
 @Component({
   selector: 'app-todo-item-card',

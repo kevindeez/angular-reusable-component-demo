@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
-import { TODOItem } from '@app/shared/models/todo-item';
+import { TODOItem } from '../../shared/models/todo-item';
 import { TodoListActions } from './redux-api/todo-list.actions';
 import { TodoListSelector } from './redux-api/todo-list.selector';
 

@@ -1,7 +1,8 @@
 import { EventEmitter, Injectable } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
-import { TODOItem } from '@app/shared/models/todo-item';
+import { TODOItem } from '../../shared/models/todo-item';
+
 
 @Injectable()
 export class AddTodoService {

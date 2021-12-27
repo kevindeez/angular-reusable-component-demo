@@ -4,10 +4,11 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { of } from 'rxjs';
 import { first } from 'rxjs/operators';
 
-import { completedTodoPath } from '@app/app.routes';
-import { TodoListService } from '@app/core/todo-list/todo-list.service';
-import { TODOItem } from '@app/shared/models/todo-item';
-import { TodoListCompletedComponent } from '@app/todo-list-completed/todo-list-completed.component';
+import { completedTodoPath } from '../app.routes';
+import { TodoListService } from '../core/todo-list/todo-list.service';
+import { TODOItem } from '../shared/models/todo-item';
+import { TodoListCompletedComponent } from './todo-list-completed.component';
+
 
 describe('TodoListCompletedComponent', () => {
   let component: TodoListCompletedComponent;
